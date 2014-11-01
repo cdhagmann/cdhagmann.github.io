@@ -1,1 +1,112 @@
-Hello World
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }
+    
+    h1 {
+      font-size: 70px;
+      padding: 0px;
+      margin: 20px;
+    }
+    
+    article {
+     max-width: 500px;
+     padding: 10px 20px 5px 20px;
+     margin: 0 auto;
+     color: black;
+     display: block;
+    }
+    
+    a {
+      font-size: 30px;
+      color: gold;
+      padding: 3px;
+    }
+    a[type="name"] {
+      font-size: 18px;
+      color: blue;
+      padding: 0px;
+    }    
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 10px solid white;
+      border-radius: 2000px;
+    }
+    
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    body {
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+    
+    @media (max-width: 500px) {
+     h1 {
+      font-size: 30px;
+      padding: 0px;
+      margin: 0px;
+     }
+     p {
+      font-size: 12px; 
+     }
+     li {
+      display: block;
+      padding: 5px;
+     }
+    a {
+      font-size: 18px;
+      color: gold;
+      padding: 3px;
+    }
+    a[type="name"] {
+      font-size: 12px;
+      color: navy;
+      padding: 0px;
+    }  
+    }
+  </style>
+</head>
+<body>
+  <title>Christopher Hagmann</title>
+  <header>
+    <img src="http://www.gravatar.com/avatar/dc41ea5df1de5d3f193ea41ad197700b?s=200">
+    <h1>Christopher Hagmann</h1>
+    <p>
+      Professional Learner
+    </p>
+    <ul>
+      <li><a href="http://careers.stackoverflow.com/cv/edit/182302">Career 2.0 Profile            </a></li>
+      <li><a href="http://www.linkedin.com/profile/view?id=75126940&trk=nav_responsive_tab_profile">LinkedIn Profile</a></li>
+    </ul>
+  </header>
+  
+  <article>
+  <h2>About Me</h2>
+  <p>I am a PhD student at Purdue University in the School of Chemical Engineering. I am currently conducting research with <a href="http://web.ics.purdue.edu/~nkong/" type='name'>Dr. Nan Kong</a>, <a href="https://engineering.purdue.edu/ChE/People/ptProfile?id=12436" type='name'>Dr. Joseph Pekny</a>, and <a href="https://engineering.purdue.edu/ChE/People/ptProfile?id=11228" type='name'>Dr. Gintaras Reklaitis</a>  in the field on mathematical optimization.</p>
+  </article>
+  
+  <article>
+  <h2>ICSP 2013</h2>
+  <p>I had the privilege to travel to Bergamo, Italy to present at the  XIII International Conference on Stochastic Programming (ICSP2013).<br><br> <a href="http://dinamico2.unibg.it/icsp2013/doc/ps/1-Christopher%20D.%20Hagmann.pdf" type="name">Integrated Warehouse-Inventory-Transportation Planning under Uncertainty: A Stochastic Integer Quadratically-Constrained Programming Approach</a>.</p>
+  </article>    
+</body>
