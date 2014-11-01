@@ -1,112 +1,74 @@
 <!DOCTYPE html>
-<head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    header {
-      text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
-      background-size: cover;
-      color: white;
-    }
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Christopher Hagmann : PhD student at Purdue University">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Christopher Hagmann</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/cdhagmann">View on GitHub</a>
+
+          <h1 id="project_title">Christopher Hagmann</h1>
+          <h2 id="project_tagline">PhD student at Purdue University</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
-    h1 {
-      font-size: 70px;
-      padding: 0px;
-      margin: 20px;
-    }
-    
-    article {
-     max-width: 500px;
-     padding: 10px 20px 5px 20px;
-     margin: 0 auto;
-     color: black;
-     display: block;
-    }
-    
-    a {
-      font-size: 30px;
-      color: gold;
-      padding: 3px;
-    }
-    a[type="name"] {
-      font-size: 18px;
-      color: blue;
-      padding: 0px;
-    }    
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 10px solid white;
-      border-radius: 2000px;
-    }
-    
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    
-    body {
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    
-    p {
-      font-size: 18px;
-    }
-    
-    @media (max-width: 500px) {
-     h1 {
-      font-size: 30px;
-      padding: 0px;
-      margin: 0px;
-     }
-     p {
-      font-size: 12px; 
-     }
-     li {
-      display: block;
-      padding: 5px;
-     }
-    a {
-      font-size: 18px;
-      color: gold;
-      padding: 3px;
-    }
-    a[type="name"] {
-      font-size: 12px;
-      color: navy;
-      padding: 0px;
-    }  
-    }
-  </style>
-</head>
-<body>
-  <title>Christopher Hagmann</title>
-  <header>
-    <img src="http://www.gravatar.com/avatar/dc41ea5df1de5d3f193ea41ad197700b?s=200">
-    <h1>Christopher Hagmann</h1>
-    <p>
-      Professional Learner
-    </p>
-    <ul>
-      <li><a href="http://careers.stackoverflow.com/cv/edit/182302">Career 2.0 Profile            </a></li>
-      <li><a href="http://www.linkedin.com/profile/view?id=75126940&trk=nav_responsive_tab_profile">LinkedIn Profile</a></li>
-    </ul>
-  </header>
-  
-  <article>
-  <h2>About Me</h2>
-  <p>I am a PhD student at Purdue University in the School of Chemical Engineering. I am currently conducting research with <a href="http://web.ics.purdue.edu/~nkong/" type='name'>Dr. Nan Kong</a>, <a href="https://engineering.purdue.edu/ChE/People/ptProfile?id=12436" type='name'>Dr. Joseph Pekny</a>, and <a href="https://engineering.purdue.edu/ChE/People/ptProfile?id=11228" type='name'>Dr. Gintaras Reklaitis</a>  in the field on mathematical optimization.</p>
-  </article>
-  
-  <article>
-  <h2>ICSP 2013</h2>
-  <p>I had the privilege to travel to Bergamo, Italy to present at the  XIII International Conference on Stochastic Programming (ICSP2013).<br><br> <a href="http://dinamico2.unibg.it/icsp2013/doc/ps/1-Christopher%20D.%20Hagmann.pdf" type="name">Integrated Warehouse-Inventory-Transportation Planning under Uncertainty: A Stochastic Integer Quadratically-Constrained Programming Approach</a>.</p>
-  </article>    
-</body>
+
+  </body>
+</html>
