@@ -12,6 +12,10 @@ div.wpcf7-response-output {
   margin: 2em 0.5em 1em;
   padding: 0.2em 1em;
 }
+
+.contact-form__meta {
+ display: none;
+}
 div.wpcf7 .screen-reader-response {
   position: absolute;
   overflow: hidden;
